@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC)](https://tailwindcss.com/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 > **Analyzing and eliminating gender bias in Bollywood cinema through AI-powered script analysis**
 
@@ -74,33 +74,29 @@ A comprehensive web application that uses machine learning and natural language 
 ### Installation
 
 1. **Clone the repository**
-\`\`\`bash
+bash
 git clone https://github.com/yourusername/bollywood-bias-buster.git
 cd bollywood-bias-buster
-\`\`\`
 
 2. **Install dependencies**
-\`\`\`bash
+
 # Install Node.js dependencies
 npm install
 
 # Install Python dependencies
 pip install -r requirements.txt
-\`\`\`
 
 3. **Set up environment variables**
-\`\`\`bash
 # Create .env.local file
 cp .env.example .env.local
 
 # Add your GitHub token (optional, for dataset access)
 GITHUB_TOKEN=your_github_token_here
-\`\`\`
+
 
 4. **Run the development server**
-\`\`\`bash
 npm run dev
-\`\`\`
+
 
 5. **Open your browser**
 Navigate to [http://localhost:3000](http://localhost:3000)
@@ -135,68 +131,49 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### **POST /api/analyze**
 Analyze text for gender bias
-\`\`\`javascript
+javascript
 const response = await fetch('/api/analyze', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ text: 'Your script text here' })
 });
-\`\`\`
+
 
 ### **POST /api/rewrite**
 Generate bias-free alternatives
-\`\`\`javascript
+javascript
 const response = await fetch('/api/rewrite', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ text: 'Biased text to rewrite' })
 });
-\`\`\`
+
 
 ### **GET /api/dataset**
 Access Bollywood dataset
-\`\`\`javascript
+javascript
 const response = await fetch('/api/dataset?category=scripts&limit=10');
-\`\`\`
 
-## 📁 Project Structure
 
-\`\`\`
-bollywood-bias-buster/
-├── app/                    # Next.js app directory
-│   ├── analyze/           # Script analysis page
-│   ├── dashboard/         # Data visualization
-│   ├── data-explorer/     # Dataset browser
-│   ├── reports/           # Bias reports
-│   ├── rewrite/           # Content rewriting
-│   └── api/               # API routes
-├── components/            # Reusable UI components
-├── lib/                   # Utility functions
-├── models/                # Python ML models
-├── scripts/               # Data processing scripts
-├── notebooks/             # Jupyter notebooks
-└── public/                # Static assets
-\`\`\`
+
 
 ## 🧪 Testing
 
 ### **Run Python Tests**
-\`\`\`bash
 # Run bias detection tests
 python test_samples/quick_test_runner.py
 
 # Run step-by-step analysis
 python test_samples/step_by_step_test.py
-\`\`\`
 
 ### **Run Frontend Tests**
-\`\`\`bash
+
 # Run Next.js development server
 npm run dev
 
 # Test all pages and functionality
 npm run test
-\`\`\`
+
 
 ## 📊 Dataset Information
 
@@ -257,9 +234,7 @@ We welcome contributions! Please follow these steps:
 - [ ] Collaborative bias detection
 - [ ] Educational resources and tutorials
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -270,9 +245,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Email**: support@bollywoodbiasbuster.com
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/bollywood-bias-buster/issues)
-- **Documentation**: [Full documentation](https://docs.bollywoodbiasbuster.com)
+- **Email**: i.rajverma8423@gmail.com.com
+- **Linkedin**: [Linkedin](https://www.linkedin.com/in/raj-verma-459320232/)
 
 ---
 
