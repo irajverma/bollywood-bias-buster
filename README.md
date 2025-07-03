@@ -1,6 +1,6 @@
 # 🎬 Bollywood Bias Buster
 
-[![Live Site](https://img.shields.io/badge/Live_Site-🌐-blue?style=for-the-badge)](https://bollywood-bias-buster.vercel.app/)
+[[![Live Site](https://img.shields.io/badge/Live_Site-🌐-blue)](https://bollywood-bias-buster.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC)](https://tailwindcss.com/)
