@@ -9,7 +9,7 @@
 > **Analyzing and eliminating gender bias in Bollywood cinema through AI-powered script analysis**
 
 A comprehensive web application that uses machine learning and natural language processing to detect, analyze, and provide solutions for gender bias in Bollywood movie scripts, plots, and dialogues.
-
+**Live Link**: [Link](https://bollywood-bias-buster.vercel.app/)
 ## 🌟 Features
 
 ### 🔍 **Script Analysis**
